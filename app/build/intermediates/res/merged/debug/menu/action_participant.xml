@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/action_bar_search"
+          myapp:showAsAction="always|collapseActionView"
+          myapp:actionViewClass="android.support.v7.widget.SearchView" />
+    <item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          myapp:showAsAction="always"
+          android:title="@string/action_bar_add">
+		<menu>
+            <!--  item android:id="@+id/action_get_profile"
+                  android:icon="@drawable/icon_shop"
+                  android:onClick="onGetProducts"
+                  android:title="@string/action_bar_get_profile" /-->		    		    
+            <!--<item android:id="@+id/action_position"
+                  android:icon="@drawable/icon_position"
+                  android:onClick="onGetLocation"
+                  android:title="@string/action_bar_position" />-->
+            <!--  item android:id="@+id/action_event"
+                  android:icon="@drawable/icon_report"
+                  android:onClick="onGetEvent"
+                  android:title="@string/action_bar_event" /-->
+            <item android:id="@+id/action_add_member"
+                  android:icon="@drawable/ic_add_contact"
+                  android:onClick="onAddMember"
+                  android:title="@string/action_bar_add_member" />
+            <item android:id="@+id/action_refresh"
+                android:icon="@drawable/ic_refresh"
+                android:showAsAction="never"
+                android:onClick="onRefresh"
+                android:title="@string/action_refresh"/>
+        </menu>
+    </item>
+
+    <!--<item android:id="@+id/action_settings"
+          android:showAsAction="never"
+          android:onClick="onSettings"
+          android:title="@string/action_settings"/>-->
+</menu>

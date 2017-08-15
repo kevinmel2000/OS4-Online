@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/action_bar_search"
+          myapp:showAsAction="always|collapseActionView"
+          myapp:actionViewClass="android.support.v7.widget.SearchView" />
+    <item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          myapp:showAsAction="always"
+          android:title="@string/action_bar_add">
+		<menu>
+            <item android:id="@+id/action_bar_shoplocation"
+                  android:icon="@drawable/icon_position"
+                  android:onClick="onLocation"
+                  android:title="@string/action_bar_shoplocation" />		    
+            <item android:id="@+id/action_add_shop"
+                  android:icon="@drawable/icon_order"
+                  android:onClick="onCreateShop"
+                  android:title="@string/action_bar_create_shop" />
+        </menu>
+    </item>    
+    <item android:id="@+id/action_account"
+          android:showAsAction="never"
+          android:onClick="onSetAccount"
+          android:title="@string/action_account"/>
+    <item android:id="@+id/action_backshops"
+          android:showAsAction="never"
+          android:onClick="onContact"
+          android:title="@string/action_backshops"/>
+    <item android:id="@+id/action_refresh"
+          android:showAsAction="never"
+          android:onClick="onRefresh"
+          android:title="@string/action_refresh"/>
+    <item android:id="@+id/action_settings"
+          android:showAsAction="never"
+          android:onClick="onSettings"
+          android:title="@string/action_settings"/>
+</menu>

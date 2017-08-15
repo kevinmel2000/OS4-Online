@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_groups.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\action_groups.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mygroups.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\mygroups.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mysupplier.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\mysupplier.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contactslist.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\contactslist.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\myshops.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\myshops.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_sales.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\action_sales.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pdxwebget.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\pdxwebget.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_participant.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\action_participant.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\setting.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\setting.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actions_chat_group.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\actions_chat_group.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\server.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\server.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_bak.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\main_bak.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\shops.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\shops.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actions_room.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\actions_room.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actions_chat.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\actions_chat.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pdxwebpost.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\pdxwebpost.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actions_account.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\actions_account.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_mysales.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\action_mysales.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\products.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\products.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\actions_private.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\actions_private.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\action_contacts.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\action_contacts.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\menu\\contacts_request.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\menu\\contacts_request.xml"
+    }
+]

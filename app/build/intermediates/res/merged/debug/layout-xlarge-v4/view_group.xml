@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="3px"
+    android:paddingRight="3px"
+    android:paddingTop="3dip" 
+    android:paddingBottom="3dip">
+
+    <RelativeLayout 
+        android:id="@+id/image_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true" 
+    	android:layout_alignParentTop="true">
+    
+		<ImageView android:id="@+id/avatar"
+		android:layout_width="96dip" android:layout_height="96dip"
+		android:layout_alignParentLeft="true" android:paddingTop="5dip"
+		android:layout_alignParentTop="true" android:scaleType="fitXY"
+		/>
+		
+	    <ImageView android:id="@+id/indicator"
+		android:layout_width="wrap_content" android:layout_height="9dip"
+		android:layout_below="@+id/avatar"
+		android:layout_alignParentLeft="true"
+		/>		
+		
+	</RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/text_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_toRightOf="@+id/image_container">
+
+	    <TextView android:id="@+id/contact_user"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:singleLine="true"
+		android:maxLines="1" android:drawablePadding="12px"
+		android:paddingLeft="15dip"
+		android:textColor="@color/black"
+		android:textSize="18sp" android:textStyle="bold"/>
+		
+	    <TextView android:id="@+id/contact_status"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@id/contact_user"
+		android:layout_alignParentLeft="true"
+		android:paddingLeft="15dip"	android:singleLine="true"
+		android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+		android:scrollHorizontally="true"
+		android:textColor="@color/grey1"
+		android:textSize="14sp"/>
+	
+	    <TextView android:id="@+id/contact_message"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@id/contact_status"
+		android:layout_alignParentLeft="true"
+		android:paddingLeft="15dip"	android:singleLine="true"
+		android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+		android:scrollHorizontally="true"
+		android:textColor="@color/grey1"
+		android:textSize="14sp" android:textStyle="italic"/>
+
+	</RelativeLayout>
+</RelativeLayout>

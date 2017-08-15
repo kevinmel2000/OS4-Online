@@ -1,0 +1,562 @@
+[
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe_lesspadding.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_stub_titleframe_lesspadding.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_category.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\preference_category.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_group.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_group.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_participant.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_participant.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_barcode.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_base.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\app_bar_base.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_list.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_img_account.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_img_account.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_progress_indeterminate.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_user.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_user.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shop.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_shop.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_image_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_image_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_group_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_group_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_listmenu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_listmenu.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_gridmenu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_gridmenu.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input_check.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_input_check.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_profile.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_group_profile.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_chat_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\main_chat_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_progress_indeterminate_horizontal.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_progress_indeterminate_horizontal.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fingerprint_profile.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_fingerprint_profile.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_record.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_record.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_loc_group.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_loc_group.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_gridview.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\main_gridview.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fingerprint.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_fingerprint.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_record_row.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_record_row.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu_web.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_menu_web.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_login_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_login_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_gridview.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_gridview.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_contact.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_contact.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_listitem.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_status_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_status_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_account.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_account.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_participant_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_participant_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdxweb.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_pdxweb.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_header.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\preference_header.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_list.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_contact_list.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_img_user.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_img_user.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_custom.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_custom.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_input.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_input.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\preference_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_loc_user.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_loc_user.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_product.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_product.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_loc_account.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_loc_account.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_contact_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_contact_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_list_check.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_list_check.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_multichoice.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_listitem_multichoice.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pdxmenu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_pdxmenu.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sales_summary.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_sales_summary.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_checkbox.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\preference_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_loc_contact.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_loc_contact.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_location_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_location_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_basic.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_img_contact.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_img_contact.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sticker_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_sticker_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_img_group.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_img_group.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_room_secret.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_room_secret.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_actionbuttons.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_stub_actionbuttons.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_contacts_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\main_contacts_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_group_edit.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_group_edit.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_listitem_singlechoice.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_dialog_basic_check.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_dialog_basic_check.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_shop_edit.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_shop_edit.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_icon.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\preference_icon.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_emo_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_emo_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_mode_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\dialog_mode_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_contact.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_contact.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\md_stub_titleframe.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout\\md_stub_titleframe.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sales.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_sales.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_chat_group_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\main_chat_group_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_groups_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\main_groups_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_message_group.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\view_message_group.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact_profile.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout\\activity_contact_profile.xml"
+    }
+]

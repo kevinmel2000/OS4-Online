@@ -1,0 +1,27 @@
+<resources>
+
+    <color name="textColor">#ffffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="title_background">#ff00ff00</color>
+	<color name="transparent">#00000000</color>
+	<color name="white_overlay">#ccffffff</color>
+	<color name="white">#ffffffff</color>	
+	<color name="black">#ff000000</color>
+	<color name="red"  >#ffff0000</color>
+	<color name="green">#ff00ff00</color>
+	<color name="blue1">#ff0000ff</color>
+	<color name="blue2">#604082d7</color>
+	<color name="grey1">#ffaaaaaa</color>
+	<color name="grey2">#ffdddddd</color>
+	<color name="grey3">#ff666666</color>
+	<color name="grey4">#ff222222</color>
+	<color name="grey5">#ff777777</color>
+	<color name="grey6">#ff444444</color>
+
+	<color name="colorPrimary">#1976d2</color>
+	<color name="colorPrimaryDark">#1976D2</color>
+	<color name="colorAccent">#1976D2</color>
+
+	<color name="background">#FFFFFF</color>
+    
+</resources>

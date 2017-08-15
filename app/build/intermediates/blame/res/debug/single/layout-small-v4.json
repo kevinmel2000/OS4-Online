@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\main_contacts_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout-small\\main_contacts_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\view_listmenu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout-small\\view_listmenu.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\dialog_emo_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout-small\\dialog_emo_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\dialog_sticker_view.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout-small\\dialog_sticker_view.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-small-v4\\view_gridmenu.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\layout-small\\view_gridmenu.xml"
+    }
+]

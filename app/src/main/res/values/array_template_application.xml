@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="templateApplication">
+        <item name="1">Web Application</item>
+        <item name="2">Map Application</item>
+        <item name="3">Fingerprint Application</item>
+        <item name="4">Barcode Application</item>
+    </string-array>
+    <string-array name="templateApplicationValues">
+        <item name="1">web</item>
+        <item name="2">map</item>
+        <item name="3">finger</item>
+        <item name="4">barcode</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".DaftarGuruActivity" >
+
+    <TextView
+        android:id="@+id/heading_shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:lines="4"
+        android:text="@string/heading"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:typeface="serif" />
+    
+	<LinearLayout android:id="@+id/devider"
+	    android:layout_below="@+id/heading_shop"
+		android:layout_width="fill_parent" android:layout_height="3px"
+		android:orientation="horizontal" android:gravity="center_vertical" android:background="#C8C8C8">
+	</LinearLayout>
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_below="@+id/devider"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:divider="#C8C8C8"
+		android:dividerHeight="1px"        
+        android:fadeScrollbars="true" />
+    
+</RelativeLayout>

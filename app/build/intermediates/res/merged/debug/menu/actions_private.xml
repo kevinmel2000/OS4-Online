@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Google Inc.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_attachment"
+          android:icon="@drawable/action_attach"
+          android:title="@string/action_bar_attachment"
+          myapp:showAsAction="always">
+        <menu>
+            <item android:id="@+id/action_camera"
+                  android:icon="@android:drawable/ic_menu_camera"
+                  android:onClick="onClickCamera"
+                  android:title="@string/action_bar_camera" />
+            <item android:id="@+id/action_gallery"
+                  android:icon="@android:drawable/ic_menu_gallery"
+                  android:onClick="onClickGallery"
+                  android:title="@string/action_bar_gallery" />
+            <item android:id="@+id/action_location"
+                  android:icon="@android:drawable/ic_menu_mylocation"
+                  android:onClick="onClickLocation"
+                  android:title="@string/action_bar_location" />
+            <!--  item android:id="@+id/action_audio"
+                  android:icon="@android:drawable/ic_btn_speak_now"
+                  android:onClick="onClickAudio"
+                  android:title="@string/action_bar_audio" />
+            <item android:id="@+id/action_sticker"
+                  android:icon="@drawable/st_wandering"
+                  android:onClick="onClickSticker"
+                  android:title="@string/action_bar_sticker" /-->            
+        </menu>
+    </item>
+    <item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          myapp:showAsAction="always"
+          android:title="@string/action_bar_add">
+		<menu>
+            <item android:id="@+id/action_profile"
+                  android:icon="@drawable/ic_user_profile"
+                  android:onClick="onGetProfile"
+                  android:title="@string/action_bar_get_profile" />
+            <item android:id="@+id/action_clearhistory"
+                android:icon="@drawable/ic_clearmsg"
+                android:showAsAction="never"
+                android:onClick="onClearMessageHistory"
+                android:title="@string/action_bar_clearhistory"/>
+        </menu>
+    </item>            
+
+</menu>

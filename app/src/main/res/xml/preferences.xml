@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="setting_key"
+        android:title="Setting"
+        android:layout="@layout/preference_category"
+        android:persistent="false"/>
+
+    <PreferenceScreen
+        android:key="account_key"
+        android:title="Account"
+        android:summary="Account Setting"
+        android:icon="@drawable/ic_user"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="account_key"
+            android:title="Account Setting"
+            android:summary="User Account Setting"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/ic_user"
+            android:persistent="false"/>
+        <EditTextPreference
+            android:name="Username"
+            android:summary="Username for your XMPP Account"
+            android:defaultValue=""
+            android:title="Username"
+            android:layout="@layout/preference_item"
+            android:key="username" />
+        <EditTextPreference
+            android:name="Password"
+            android:summary="Password for your XMPP Account"
+            android:defaultValue=""
+            android:password="true"
+            android:title="Password"
+            android:layout="@layout/preference_item"
+            android:key="password" />
+        <EditTextPreference
+            android:name="Domain"
+            android:summary="Domain for your XMPP Account"
+            android:defaultValue="os4-it.com"
+            android:title="Domain"
+            android:layout="@layout/preference_item"
+            android:key="domain" />
+        <EditTextPreference
+            android:name="Server"
+            android:summary="Hostname or IP Address"
+            android:defaultValue="103.253.115.27"
+            android:title="Server Name"
+            android:layout="@layout/preference_item"
+            android:key="ip" />
+        <EditTextPreference
+            android:name="Port Address"
+            android:summary="Port Address"
+            android:defaultValue="5222"
+            android:title="Port Address"
+            android:layout="@layout/preference_item"
+            android:key="port" />
+        <EditTextPreference
+            android:name="Nickname"
+            android:summary="Nickname for your XMPP Account"
+            android:defaultValue=""
+            android:title="Nickname"
+            android:layout="@layout/preference_item"
+            android:key="nickname" />
+        <EditTextPreference
+            android:name="Resource"
+            android:summary="Resource for your XMPP Account"
+            android:defaultValue="OS4Messanger"
+            android:title="Resource"
+            android:layout="@layout/preference_item"
+            android:key="resource" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_void_setting_key"
+        android:title="VoIP Setting"
+        android:summary="VoIP Setting for your Application"
+        android:icon="@drawable/icon_register"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="voip_key"
+            android:title="VoIP Setting"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/icon_register"
+            android:persistent="false"/>
+        <CheckBoxPreference
+            android:layout="@layout/preference_checkbox"
+            android:defaultValue="true"
+            android:key="voip_profile"
+            android:summary="Enable VoIP Service"
+            android:title="VoIP Profile" />
+        <EditTextPreference
+            android:name="SIP Number"
+            android:summary="Number for your SIP Account"
+            android:dependency="voip_profile"
+            android:defaultValue=""
+            android:title="SIP Number"
+            android:layout="@layout/preference_item"
+            android:key="namePreference" />
+        <EditTextPreference
+            android:name="SIP Domain"
+            android:summary="Domain for your SIP Account"
+            android:dependency="voip_profile"
+            android:defaultValue=""
+            android:title="SIP Domain"
+            android:layout="@layout/preference_item"
+            android:key="domainPreference" />
+        <EditTextPreference
+            android:name="SIP Password"
+            android:summary="Password for your SIP Account"
+            android:dependency="voip_profile"
+            android:defaultValue=""
+            android:title="SIP Password"
+            android:layout="@layout/preference_item"
+            android:key="passwordPreference"
+            android:password="true" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_application_setting_key"
+        android:title="Application Setting"
+        android:summary="Profile Setting for Remote Application"
+        android:icon="@drawable/menu_web"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="application_key"
+            android:title="Application Setting"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/menu_web"
+            android:persistent="false"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="application_profile"
+            android:layout="@layout/preference_checkbox"
+            android:summary="Enable Application"
+            android:title="Application Profile" />
+        <ListPreference
+            android:name="Application Template"
+            android:summary="Template for your Application"
+            android:dependency="application_profile"
+            android:entries="@array/templateApplication"
+            android:entryValues="@array/templateApplicationValues"
+            android:defaultValue="web"
+            android:title="Application Template"
+            android:layout="@layout/preference_item"
+            android:key="templatePreference" />
+        <EditTextPreference
+            android:name="Server Address"
+            android:summary="Address of your Home Application"
+            android:dependency="application_profile"
+            android:defaultValue=""
+            android:title="Server Address"
+            android:layout="@layout/preference_item"
+            android:key="webPreference" />
+        <EditTextPreference
+            android:name="Remote JID"
+            android:summary="Remote JID for Remote Application"
+            android:dependency="application_profile"
+            android:defaultValue=""
+            android:title="Remote JID"
+            android:layout="@layout/preference_item"
+            android:key="remoteJIDPreference" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_presence_key"
+        android:title="Presence and Status"
+        android:summary="User Profile Setting"
+        android:icon="@drawable/icon_order"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="presence_key"
+            android:title="Presence and Status"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/icon_order"
+            android:persistent="false"/>
+        <ListPreference
+            android:name="Presence"
+            android:summary="Current Presence"
+            android:entries="@array/presence"
+            android:entryValues="@array/presenceValues"
+            android:defaultValue="available"
+            android:title="Presence"
+            android:layout="@layout/preference_item"
+            android:key="presencePreference" />
+        <EditTextPreference
+            android:name="Status"
+            android:summary="Status of your wall"
+            android:defaultValue="Online"
+            android:title="Status"
+            android:layout="@layout/preference_item"
+            android:key="statusPreference" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_backup_key"
+        android:title="Backup and Themes"
+        android:summary="Backup and Themes Setting"
+        android:icon="@drawable/icon_report"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="account_key"
+            android:title="Backup and Theme"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/icon_report"
+            android:persistent="false"/>
+        <ListPreference
+            android:name="Backup Frequency"
+            android:summary="Website for your Web Application"
+            android:entries="@array/backupFrequency"
+            android:entryValues="@array/backupFrequencyValues"
+            android:defaultValue="0"
+            android:title="Backup Frequency"
+            android:layout="@layout/preference_item"
+            android:key="backupPreference" />
+        <EditTextPreference
+            android:name="Theme Color"
+            android:summary="Theme Color for your Mobile Application"
+            android:defaultValue=""
+            android:title="Theme Color"
+            android:layout="@layout/preference_item"
+            android:key="colorPreference" />
+        <Preference
+            android:title="Pick Logo Image"
+            android:summary="Logo Image for your Application"
+            android:defaultValue=""
+            android:layout="@layout/preference_icon"
+            android:key="filePicker"
+            />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_notification_key"
+        android:title="Notifications"
+        android:summary="Notification Setting"
+        android:icon="@drawable/menu_group"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="notification_key"
+            android:title="Notifications"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/menu_group"
+            android:persistent="false"/>
+        <CheckBoxPreference
+            android:key="notifications_new_message"
+            android:layout="@layout/preference_checkbox"
+            android:title="Message Notifications"
+            android:summary="Enable Notification"
+            android:defaultValue="true"/>
+
+        <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="notifications_new_message"
+            android:key="notifications_ringtone"
+            android:layout="@layout/preference_item"
+            android:summary="Ringtone Selection"
+            android:ringtoneType="notification"
+            android:title="@string/pref_title_ringtone" />
+
+        <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="notifications_new_message"
+            android:key="notifications_new_message_vibrate"
+            android:layout="@layout/preference_checkbox"
+            android:summary="Enable Vibrate Notification"
+            android:title="@string/pref_title_vibrate" />
+     </PreferenceScreen>
+    <PreferenceScreen
+        android:key="button_website_and_about_key"
+        android:title="Website and About"
+        android:summary="Website and Application About"
+        android:icon="@drawable/menu_product"
+        android:layout="@layout/preference_icon"
+        android:persistent="false">
+        <Preference
+            android:key="website_and_about_key"
+            android:title="Website and About "
+            android:summary="Website and Application About"
+            android:layout="@layout/preference_header"
+            android:icon="@drawable/menu_product"
+            android:persistent="false"/>
+        <Preference
+            android:key="website_key"
+            android:title="Website"
+            android:summary="Website Application"
+            android:layout="@layout/preference_item"
+            android:persistent="false">
+        </Preference>
+        <Preference
+            android:key="about_key"
+            android:title="About"
+            android:summary="About Application"
+            android:layout="@layout/preference_item"
+            android:persistent="false">
+        </Preference>
+    </PreferenceScreen>
+</PreferenceScreen>

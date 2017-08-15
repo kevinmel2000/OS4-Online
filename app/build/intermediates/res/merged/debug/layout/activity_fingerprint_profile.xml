@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView android:id="@+id/photo"
+            android:layout_width="120dip" android:layout_height="120dip"
+            android:layout_alignParentLeft="true" android:paddingTop="5dip"
+            android:paddingLeft="5dip"
+            android:layout_alignParentTop="true" android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_container">
+
+        <TextView android:id="@+id/name"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:maxLines="1" android:drawablePadding="12px"
+            android:paddingLeft="15dip"
+            android:textColor="@color/white"
+            android:textSize="16sp" android:textStyle="bold"/>
+
+        <TextView android:id="@+id/ktp"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dip" android:singleLine="true"
+            android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+            android:scrollHorizontally="true"
+            android:textColor="@color/grey1"
+            android:textSize="12sp"/>
+
+        <TextView android:id="@+id/address"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_below="@id/ktp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dip" android:singleLine="true"
+            android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+            android:scrollHorizontally="true"
+            android:textColor="@color/grey1"
+            android:textSize="14sp"/>
+
+        <TextView android:id="@+id/kelurahan"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dip" android:singleLine="true"
+            android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+            android:scrollHorizontally="true"
+            android:textColor="@color/grey1"
+            android:textSize="12sp"/>
+
+        <TextView android:id="@+id/kecamatan"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_below="@id/kelurahan"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dip" android:singleLine="true"
+            android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+            android:scrollHorizontally="true"
+            android:textColor="@color/grey1"
+            android:textSize="12sp"/>
+
+        <TextView android:id="@+id/kota_kabupaten"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_below="@id/kecamatan"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dip" android:singleLine="true"
+            android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+            android:scrollHorizontally="true"
+            android:textColor="@color/grey1"
+            android:textSize="12sp"/>
+
+        <TextView android:id="@+id/provinsi"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_below="@id/kota_kabupaten"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dip" android:singleLine="true"
+            android:maxLines="1" android:linksClickable="false" android:autoLink="all"
+            android:scrollHorizontally="true"
+            android:textColor="@color/grey1"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_container"
+        android:padding="15dip"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="title" />
+
+    <ListView android:id="@+id/list_view" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title"
+        android:scrollbars="vertical"
+        android:divider="#C8C8C8"
+        android:dividerHeight="1px"
+        android:fadeScrollbars="true"/>
+
+</RelativeLayout>

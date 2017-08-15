@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="reg_label_change_avatar">Click Image to change Photo</string>
+    <string name="reg_label_username">Mobile Number</string>
+    <string name="reg_label_password">Password</string>
+    <string name="reg_label_email">Email</string>
+    <string name="reg_label_nickname">Nick Name</string>
+    <string name="reg_label_password_confirmation">Confirm Password</string>
+
+</resources>

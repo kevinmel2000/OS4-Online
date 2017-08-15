@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_partipants.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_partipants.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_create_room.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_create_room.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_exit_to_app_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_exit_to_app_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_person_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_person_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_clearmsg.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_clearmsg.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_mygroup.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_mygroup.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_photo_library_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo_library_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_leave.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_leave.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_friend_request.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_friend_request.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_group_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_group_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_settings_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_refresh.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_refresh.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_look_around.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_look_around.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_local_movies_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_local_movies_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_tell_friend.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_tell_friend.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_contact_mail_black_24dp.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_contact_mail_black_24dp.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_add_contact.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_add_contact.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_user_profile.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_user_profile.png"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_change_status.png",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_change_status.png"
+    }
+]

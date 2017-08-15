@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.os4.ecb"
+    android:versionCode="7"
+    android:versionName="1.6">
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:name=".MessengerApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_header"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".activity.MainActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PDXLoginActivity"
+            android:label="@string/title_activity_pdxmenu" />
+        <activity
+            android:name=".activity.PDXMapActivity"
+            android:label="@string/title_activity_map" />
+        <activity
+            android:name=".activity.PDXRegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activity.WebSiteActivity"
+            android:label="@string/title_activity_website" />
+        <activity
+            android:name=".activity.PDXContactActivity"
+            android:label="@string/app_contacts" />
+        <activity
+            android:name=".activity.PDXCommunitiesActivity"
+            android:label="@string/app_communities" />
+        <activity
+            android:name=".activity.PDXGroupsActivity"
+            android:label="@string/app_groups" />
+        <activity
+            android:name=".activity.PDXParticipantActivity"
+            android:label="@string/app_participants" />
+        <activity
+            android:name=".activity.PDXChatActivity"
+            android:label="@string/app_personal_chat" />
+        <activity
+            android:name=".activity.PDXChatGroupActivity"
+            android:label="@string/app_group_chat" />
+        <activity
+            android:name=".activity.PDXChatPrivateActivity"
+            android:label="@string/app_private_chat" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_pdxsettings" />
+
+        <service
+            android:name=".service.PDXServiceExt"
+            android:enabled="true"
+            android:launchMode="singleTop"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.os4.ecb.service.PDXServiceExt" />
+                <action android:name="com.os4.ecb.service.aidl.IPDXServiceExt" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.MonitorService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.os4.ecb.service.MonitorService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".receiver.BootCompleteReceiver"
+            android:label="BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.MonitorReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.os4.ecb.receiver.MonitorReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".activity.AboutActivity"></activity>
+    </application>
+
+</manifest>

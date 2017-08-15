@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="3dip"
+    android:paddingLeft="3px"
+    android:paddingRight="3px"
+    android:paddingTop="3dip" >
+
+    <RelativeLayout 
+        android:id="@+id/image_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true" 
+    	android:layout_alignParentTop="true">
+    
+		<ImageView android:id="@+id/avatar"
+		android:layout_width="96dip" android:layout_height="96dip"
+		android:layout_alignParentLeft="true" 
+		android:paddingTop="2dip" android:paddingBottom="2dip"
+		android:layout_alignParentTop="true" android:scaleType="fitXY"
+		/>
+		
+	</RelativeLayout>
+
+    <RelativeLayout 
+        android:id="@+id/text_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_toRightOf="@+id/image_container">
+
+	    <TextView
+	        android:id="@+id/contact_user"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:maxLines="1"
+	        android:paddingLeft="15dip"
+	        android:singleLine="true"
+	        android:textColor="@color/black"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	    	    		
+	    <TextView
+	        android:id="@+id/contact_resource"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@id/contact_user"
+	        android:maxLines="1"
+	        android:paddingLeft="15dip"
+	        android:singleLine="true"
+	        android:textColor="@color/grey1"
+	        android:textSize="16sp" />
+	
+	    <TextView
+	        android:id="@+id/contact_message"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@id/contact_resource"
+	        android:singleLine="true"
+	        android:maxLines="1"
+	        android:paddingLeft="15dip"
+	        android:scrollHorizontally="true"
+	        android:textColor="@color/grey1"
+	        android:textSize="16sp"
+	        android:textStyle="italic" />
+
+	</RelativeLayout>
+	
+    <RelativeLayout 
+        android:id="@+id/presence_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true" 
+    	android:layout_toRightOf="@+id/text_container">
+
+	    <TextView
+	        android:id="@+id/contact_datetime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:singleLine="true"
+	        android:maxLines="1"
+	        android:paddingRight="10dip"
+	        android:textColor="@color/grey1"
+	        android:textSize="18sp"
+	        android:textStyle="bold" />
+	    
+	    <ImageView android:id="@+id/indicator"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@id/contact_datetime"
+		android:layout_alignParentRight="true"
+		android:paddingRight="10dip"/>
+        
+	    <TextView
+	        android:id="@+id/unread_count"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@id/indicator"
+	        android:gravity="center"
+	        android:height="20dp"
+	        android:minWidth="20dp"
+	        android:paddingRight="10dip"
+	        android:text="0"
+	        android:textColor="@color/white"
+	        android:textSize="16sp" />
+	    	    
+	</RelativeLayout>
+    
+</RelativeLayout>

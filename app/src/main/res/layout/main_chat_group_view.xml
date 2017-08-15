@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_chat"
+    android:orientation="vertical" >
+		
+	<ListView android:id="@+id/chat_message_list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:scrollbars="vertical"
+		android:stackFromBottom="true" 
+		android:dividerHeight="1dip" 
+		android:fadeScrollbars="true"/>
+		
+	<LinearLayout android:layout_width="fill_parent" android:id="@+id/chatbox"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:gravity="center_vertical"
+		android:padding="8dp">
+		<ImageView android:id="@+id/chat_emoticon" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:onClick="onClickEmoticon" 
+		    android:src="@drawable/emoticon"/>
+
+		<EditText
+		    android:id="@+id/chat_input"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:cursorVisible="true"
+		    android:hint="message"
+		    android:imeOptions="actionSend"
+		    android:inputType="textShortMessage|textAutoCorrect|textMultiLine|textCapSentences"
+		    android:maxLines="5"
+		    android:paddingLeft="20dip"
+		    android:paddingRight="20dip"
+		    android:textColor="@color/black"
+		    android:textColorHint="@color/grey1" />
+
+		<ImageView android:id="@+id/chat_send_message" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:src="@drawable/btn_submit"/>
+	</LinearLayout>
+
+</LinearLayout>

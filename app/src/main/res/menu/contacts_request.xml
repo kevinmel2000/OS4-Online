@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/action_bar_search"
+          myapp:showAsAction="always|collapseActionView"
+          myapp:actionViewClass="android.support.v7.widget.SearchView" />
+    <!--<item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          myapp:showAsAction="always"
+          android:title="@string/action_bar_add">
+		<menu>
+            <item android:id="@+id/action_add_contact"
+                  android:icon="@drawable/action_user"
+                  android:onClick="onAddContact"
+                  android:title="@string/action_bar_add_contact" />
+            <item android:id="@+id/action_tell_friends"
+                  android:icon="@drawable/ic_tell_friend"
+                  android:onClick="onTellFriend"
+                  android:title="@string/action_bar_tell_friends" />
+            <item android:id="@+id/action_refresh"
+                android:showAsAction="never"
+                android:onClick="onRefresh"
+                android:title="@string/action_refresh"/>
+            <item android:id="@+id/action_look_around"
+                  android:icon="@drawable/ic_look_around"
+                  android:onClick="onLookAround"
+                  android:title="@string/action_bar_look_around" />
+        </menu>
+    </item>    -->
+    <!--<item android:id="@+id/action_account"
+          android:showAsAction="never"
+          android:onClick="onSetAccount"
+          android:title="@string/action_account"/>
+    <item android:id="@+id/action_groups"
+          android:showAsAction="never"
+          android:onClick="onSelectGroups"
+          android:title="@string/action_groups"/>
+    <item android:id="@+id/action_shops"
+          android:showAsAction="never"
+          android:onClick="onSelectShops"
+          android:title="@string/action_shops"/>-->
+    <!--<item android:id="@+id/action_settings"
+          android:showAsAction="never"
+          android:onClick="onSettings"
+          android:title="@string/action_settings"/>
+    <item android:id="@+id/action_signout"
+          android:icon="@android:drawable/ic_menu_close_clear_cancel"
+          android:showAsAction="never"
+          android:onClick="onSignOut"
+          android:title="@string/action_bar_signout" />-->
+</menu>

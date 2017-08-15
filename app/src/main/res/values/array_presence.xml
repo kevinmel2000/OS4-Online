@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="presence">
+        <item name="1">Free to chat</item>
+        <item name="2">Online</item>
+        <item name="3">Away</item>
+        <item name="4">Extended Away</item>
+        <item name="5">On the phone</item>
+        <item name="6">Do not disturb</item>
+        <item name="7">Invisible</item>
+    </string-array>
+    <string-array name="presenceValues">
+        <item name="1">chat</item>
+        <item name="2">available</item>
+        <item name="3">away</item>
+        <item name="4">xa</item>
+        <item name="5">otp</item>
+        <item name="6">dnd</item>
+        <item name="7">unavailable</item>
+    </string-array>
+</resources>

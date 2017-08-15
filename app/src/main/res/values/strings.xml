@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OS4 Sales Order</string>
+    <string name="setting_button">Setting</string>
+    <string name="signin_button">Sign In</string>
+    <string name="welcome_content">Welcome to\nSales Order</string>
+    <string name="title_activity_register">Registration</string>
+    <string name="title_activity_website">Website</string>
+    <string name="title_activity_pdxweb">Products</string>
+    <string name="title_activity_upload">Upload</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_communities">Communities</string>
+    <string name="title_activity_pdxmenu">Menu</string>
+    <string name="title_activity_sales">E-Form</string>
+    <string name="title_activity_sales_summary">E-Form Summary</string>
+
+    <!-- Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_communities">Communities</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_sign_out">Sign Out</string>
+
+    <!--<string name="nav_order">Order</string>-->
+    <!--<string name="nav_fingerprint">Fingerprint</string>-->
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Account</item>
+        <item>Contacts</item>
+        <item>Communities</item>
+        <item>Sign Out</item>
+    </string-array>
+
+    <!-- Acctivity String -->
+    <string name="app_online">Online</string>
+    <string name="app_contacts">Contacts</string>
+    <string name="app_communities">Communities</string>
+    <string name="app_contacts_request">Friend Requests</string>
+    <string name="app_groups">Groups</string>
+    <string name="app_mygroups">My Groups</string>
+    <string name="app_shops">Shops</string>
+    <string name="app_myshops">My Shops</string>
+    <string name="app_mysupplier">My Supplier</string>
+    <string name="app_public">Public Room</string>
+    <string name="app_personal_chat">Chat Personal</string>
+    <string name="app_group_chat">Chat Group</string>
+    <string name="app_private_chat">Chat Private</string>
+    <string name="app_room_chat">Chat Room</string>
+    <string name="app_account">Account Setting</string>
+    <string name="app_participants">Participants</string>
+    <string name="app_sales">Sales Members</string>
+    <string name="app_owner">Owner</string>
+    <string name="app_profile">Profile</string>
+    <string name="app_stores">Stores</string>
+    <string name="app_store_menu">Store Menu</string>
+    <string name="app_registration">Customer Registration</string>
+    <string name="app_data">Data</string>
+    <string name="app_menu">Menu</string>
+    <string name="app_record">Record</string>
+
+    <!-- Menu String -->
+    <string name="action_signout">Sign Out</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_account">Account</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_contacts">Back to Contacts</string>
+    <string name="action_backshops">Back to Shops</string>
+    <string name="action_online">Online</string>
+    <string name="action_groups">Groups</string>
+    <string name="action_shops">Shops</string>
+    <string name="action_myshops">My Shops</string>
+    <string name="action_mysupplier">My Supplier</string>
+    <string name="action_public">Public Room</string>
+    <string name="action_stores">Stores</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_sendback">Send Back</string>
+    <string name="external_dir">Signature</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_add">Add</string>
+    <string name="action_bar_edit">Edit</string>
+    <string name="action_bar_share">Share</string>
+    <string name="action_bar_sort">Sort</string>
+    <string name="action_bar_sort_alpha">Alphabetically</string>
+    <string name="action_bar_sort_size">By size</string>
+    <string name="action_bar_share_with">Share with...</string>
+    <string name="action_bar_settings">Settings</string>
+    <string name="action_bar_signout">SignOut</string>
+    <string name="action_bar_add_contact">Add Contact</string>
+    <string name="action_bar_friend_request">Friend Request</string>
+    <string name="action_bar_tell_friends">Tell Fiends</string>
+    <string name="action_bar_look_around">Look Around</string>
+    <string name="action_bar_view_mygroup">My Group</string>
+    <string name="action_bar_add_group">Add Group</string>
+    <string name="action_bar_create_room">Create Room</string>
+    <string name="action_bar_create_shop">Create Shop</string>
+    <string name="action_bar_change_status">Change Status</string>
+    <string name="action_bar_shop">Shop</string>
+    <string name="action_bar_attachment">Attachment</string>
+    <string name="action_bar_camera">Camera</string>
+    <string name="action_bar_gallery">Gallery</string>
+    <string name="action_bar_location">Location</string>
+    <string name="action_bar_audio">Audio</string>
+    <string name="action_bar_video">Video</string>
+    <string name="action_bar_emoticon">Emoticon</string>
+    <string name="action_bar_sticker">Sticker</string>
+    <string name="action_bar_clearhistory">Clear Message History</string>
+    <string name="action_bar_invite">Invite Participant</string>
+    <string name="action_bar_leave">Leave Group</string>
+    <string name="action_bar_participant">Participants</string>
+    <string name="action_bar_products">Products</string>
+    <string name="action_bar_position">Position</string>
+    <string name="action_bar_setposition">Set Location</string>
+    <string name="action_bar_shoplocation">Shops Location</string>
+    <string name="action_bar_nearestshops">Nearest Shops</string>
+    <string name="action_bar_queue">Queue</string>
+    <string name="action_bar_register">Booking</string>
+    <string name="action_bar_order">Order</string>
+    <string name="action_bar_testimoni">Reports</string>
+    <string name="action_bar_event">Events</string>
+    <string name="action_bar_add_member">Add Member</string>
+    <string name="action_bar_add_sales">Add Sales</string>
+    <string name="action_bar_change_mode">Change Mode</string>
+
+    <string name="action_bar_get_products">Shop Products</string>
+    <string name="action_bar_shop_location">Shop Location</string>
+    <string name="action_bar_get_position">Member Position</string>
+    <string name="action_bar_get_profile">Profile</string>
+    <string name="action_bar_upload">Upload</string>
+
+    <string name="heading">Selamat Datang di toko kami, silahkan click menu (+) untuk melihat profile dan produk produk kami atau silahkan hubungi sales sales kami dibawah ini</string>
+    <string name="heading_shop">Silahkan click menu (+) untuk mendaftar toko anda dan tambahkan barang jualan atau teman anda sebagai sales atau reseler anda</string>
+    <string name="heading_supplier">Silahkan click menu (+) untuk melihat daftar supplier yang anda punya, anda dapat mendaftarkan toko anda pada supplier lain nya, hubungi supplier anda</string>
+    <string name="heading_sales">Silahkan click menu (+) untuk merubah mode aplikasi menjadi Smart Shop untuk berjualan dan tambahkan barang jualan atau teman anda sebagai sales atau reseler anda</string>
+    <string name="heading_owner">Selamat Datang di toko kami, silahkan click menu (+) untuk melihat profile dan produk produk kami atau silahkan hubungi owner kami dibawah ini</string>
+    <string name="title_activity_map">Map</string>
+
+    <string name="sms_advertise">Mari Ikut Chatting di OS4 Messenger</string>
+    <string name="title_activity_contact_profile">Profile</string>
+    <string name="title_activity_group_profile">Group Profile</string>
+    <string name="title_activity_pdxsettings">Settings</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OS4IT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+     function register(){
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		android.register(username,password);
+     }
+   </script>
+</head>
+<body>
+
+<div data-role="page">
+
+  <div data-role="main" class="ui-content">
+    <form method="post" action="account">
+
+      <fieldset><legend>Mobile Number:</legend>
+        <input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="">
+      </fieldset>
+
+      <fieldset><legend>Password:</legend>
+        <input type="password" name="password" id="password" value="" autocomplete="off">
+      </fieldset>
+
+      <fieldset><legend>Nick name:</legend>
+        <input type="text" name="fullname" id="fullname">
+      </fieldset>
+
+      <fieldset><legend>Date of Birth:</legend>
+        <input type="date" name="bday" id="bday">
+      </fieldset>
+
+      <fieldset><legend>E-mail:</legend>
+        <input type="email" name="email" id="email" placeholder="Your email..">
+      </fieldset>
+
+      <fieldset data-role="controlgroup">
+        <legend>Choose your gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+      </fieldset>
+
+      <fieldset data-role="controlgroup">
+        <legend>Choose as many favorite colors as you'd like:</legend>
+        <label for="red">Red</label>
+        <input type="checkbox" name="favcolor" id="red" value="red" checked>
+        <label for="green">Green</label>
+        <input type="checkbox" name="favcolor" id="green" value="green">
+        <label for="blue">Blue</label>
+        <input type="checkbox" name="favcolor" id="blue" value="blue" checked>
+      </fieldset>
+
+      <fieldset><legend>Photo Avatar:</legend>
+        <input type="file" name="file" id="file" value="">
+      </fieldset>
+
+      <button class="show-page-loading-msg" data-textonly="false" data-textvisible="true" data-msgtext="" data-inline="true">Submit with loading icon</button>
+      <input type="submit" data-inline="true" value="Submit">
+      <a href="#" onclick="register()">Foo</a>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

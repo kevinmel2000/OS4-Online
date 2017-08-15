@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		
+	<LinearLayout android:id="@+id/layout"
+	    android:layout_width="fill_parent" android:orientation="vertical"
+		android:layout_height="0dip" android:layout_weight="1"
+		android:scrollbars="vertical"
+		android:gravity="center_vertical">
+		
+	    <EditText
+	        android:id="@+id/username"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_marginLeft="20dip"
+	        android:layout_marginRight="20dip"
+	        android:inputType="textPersonName"
+	        android:hint="@string/prompt_email"/>
+	    
+	    <EditText
+	        android:id="@+id/password"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:layout_marginLeft="20dip"
+	        android:layout_marginRight="20dip"
+	        android:scrollHorizontally="true"
+	        android:hint="@string/prompt_password"
+	        android:gravity="fill_horizontal"
+	        android:inputType="textPassword"/>
+	    
+	</LinearLayout>
+		
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:padding="8dp" android:gravity="center_vertical|center_horizontal">
+
+		<Button
+		    android:id="@+id/login_button"
+		    android:layout_width="100dip"
+		    android:layout_height="wrap_content"
+		    android:text="Sign In"
+		    android:textColor="@color/white" />
+			
+		<Button
+		    android:id="@+id/create_button"
+		    android:layout_width="100dip"
+		    android:layout_height="wrap_content"
+		    android:text="Create"
+		    android:textColor="@color/white" />
+
+	</LinearLayout>
+		
+</LinearLayout>

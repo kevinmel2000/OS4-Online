@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sales_label_product">Product</string>
+    <string name="sales_label_quantity">Quantity</string>
+    <string name="sales_label_price">Price</string>
+    <string name="sales_label_subtotal_price">Sub-Total</string>
+    <string name="sales_label_total_price">Total</string>
+
+</resources>

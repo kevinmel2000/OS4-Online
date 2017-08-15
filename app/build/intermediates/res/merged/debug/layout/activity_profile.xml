@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PDXAccountActivity" android:scrollbars="none">
+
+	<LinearLayout android:id="@+id/layout_acc"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" android:isScrollContainer="true">
+
+		<ImageView
+		    android:id="@+id/photo"
+		    android:layout_width="96dip"
+		    android:layout_height="96dip"
+		    android:contentDescription="@null"
+		    android:layout_marginLeft="20dip"
+		    android:scaleType="fitXY"
+		    android:src="@drawable/icon" />
+	    
+		<LinearLayout android:id="@+id/layout"
+		    android:layout_width="fill_parent" android:orientation="vertical"
+			android:layout_height="0dp" android:layout_weight="1"
+			android:layout_marginTop="10dip"
+			android:scrollbars="vertical" 
+			android:gravity="center_vertical">
+			
+		    <TextView
+		        android:id="@+id/input_label1"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="@string/input_label1"
+		        android:gravity="left"
+		        android:textSize="14sp"/>	            
+		    <EditText
+		        android:id="@+id/input_data1"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:autoText="false"
+		        android:capitalize="none"
+		        android:gravity="fill_horizontal"/>
+
+		    <TextView
+		        android:id="@+id/input_label2"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="@string/input_label2"
+		        android:gravity="left"
+		        android:textSize="14sp"/>	            
+		    <EditText
+		        android:id="@+id/input_data2"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:autoText="false"
+		        android:capitalize="none"
+		        android:gravity="fill_horizontal"/>
+		    
+		    <TextView
+		        android:id="@+id/input_label3"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="@string/input_label3"
+		        android:gravity="left"
+		        android:textSize="14sp"/>	            
+		    <EditText
+		        android:id="@+id/input_data3"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:autoText="false"
+		        android:capitalize="none"
+		        android:gravity="fill_horizontal"/>
+		    
+		    <TextView
+		        android:id="@+id/input_label4"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="@string/input_label4"
+		        android:gravity="left"
+		        android:textSize="14sp"/>	            
+		    <EditText
+		        android:id="@+id/input_data4"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:autoText="false"
+		        android:capitalize="none"
+		        android:gravity="fill_horizontal"/>
+
+		    <TextView
+		        android:id="@+id/input_label5"
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="@string/input_label5"
+		        android:gravity="left"
+		        android:textSize="14sp"/>	            
+		    <EditText
+		        android:id="@+id/input_data5"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:autoText="false"
+		        android:capitalize="none"
+		        android:gravity="fill_horizontal"/>
+		    
+		</LinearLayout>
+			
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:padding="5px" android:gravity="center_vertical|center_horizontal">
+			<Button android:id="@+id/ok_button"
+				android:layout_width="100dip" android:layout_height="wrap_content"
+				android:text="Ok" />			
+			<Button android:id="@+id/cancel_button"
+				android:layout_width="100dip" android:layout_height="wrap_content"
+				android:text="Cancel" />
+		</LinearLayout>
+				
+	</LinearLayout>	
+
+</ScrollView>

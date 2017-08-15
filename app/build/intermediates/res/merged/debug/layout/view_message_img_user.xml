@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:paddingLeft="5px"
+    android:paddingRight="5px" android:paddingTop="5dip"
+    android:paddingBottom="5dip" 
+    >
+    
+    <ImageView android:id="@+id/chatavatar"        
+		android:layout_width="39dip" 
+		android:layout_height="39dip"
+		android:scaleType="fitXY"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+	/>
+    
+    <ImageView android:id="@+id/arrow_balloon"
+        android:layout_width="11dip"
+        android:layout_height="15dip"
+        android:layout_toLeftOf="@+id/chatavatar"
+        android:layout_alignTop="@+id/chatavatar"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="16dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/yellow_arrow_balloon"
+        />
+    
+    <RelativeLayout 
+        android:id="@+id/text_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_toLeftOf="@+id/arrow_balloon"
+    	android:background="#FEFEE8"
+    >
+	
+		<TextView android:id="@+id/chatmessagedate"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:paddingLeft="3dip" android:textColor="@color/grey1"
+		android:textSize="12sp"/>
+
+		<!--ImageView android:id="@+id/delivered"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/chatmessagedate"
+		android:paddingLeft="3dip"/-->
+
+		<ImageView android:id="@+id/chatmessageimage"
+		android:layout_below="@+id/chatmessagedate"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:scaleType="fitXY"
+		android:paddingLeft="2dip" android:paddingTop="2dip"
+		android:paddingRight="2dip" android:paddingBottom="2dip"/>
+
+		<TextView android:id="@+id/chatmessagetext"
+			android:layout_width="wrap_content" android:layout_height="17sp"
+			android:layout_below="@+id/chatmessageimage"
+			android:paddingLeft="3dip" android:textColor="@color/grey1"
+			android:textSize="12sp"/>
+
+    </RelativeLayout>
+    
+</RelativeLayout>
+

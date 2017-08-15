@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OS4IT</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/_all-skins.min.css">
+  
+	<script type="text/javascript">
+
+	function startLogin(){
+		var username = document.getElementById("username").value;
+		var password = document.getElementById("password").value;
+		var host = document.getElementById("host").value;
+		var port = document.getElementById("port").value;
+		android.startLogin(username,password,host,port);
+	}
+
+	function register(){
+		android.register(); 
+	}
+	</script>	  
+  
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="container">
+    <div class="row">
+	<div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="account-wall">
+                <img class="profile-img" src="images/logo-alt.png"alt="">                
+                <input type="text" class="form-control" placeholder="Username" id="username" value="" required autofocus>
+                <input type="password" class="form-control" placeholder="Password" id="password" value="" required>
+                <input type="text" class="form-control" placeholder="Server-Host" id="host" value="156.67.218.74" required autofocus>
+                <input type="text" class="form-control" placeholder="Server-Port" id="port" value="5222" required autofocus>
+				<button class="btn btn-lg btn-primary btn-block" type="submit" onclick="startLogin()">Sign in</button>
+				<button class="btn btn-lg btn-default btn-block" type="submit" onclick="register()">Register</button>                                
+            </div>
+            <span class="text-center new-account">OS4IT </span>
+        </div>
+	
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_singlechoice.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout-ldrtl-v17\\md_listitem_singlechoice.xml"
+    },
+    {
+        "merged": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldrtl-v17\\md_listitem_multichoice.xml",
+        "source": "D:\\Projects\\OS4-IT\\Development\\OS4-Online\\app\\build\\intermediates\\exploded-aar\\com.afollestad.material-dialogs\\core\\0.9.4.2\\res\\layout-ldrtl-v17\\md_listitem_multichoice.xml"
+    }
+]

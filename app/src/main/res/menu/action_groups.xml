@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+      xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add"
+          android:icon="@android:drawable/ic_menu_add"
+          myapp:showAsAction="always"
+          android:title="@string/action_bar_add">
+		<menu>
+            <item android:id="@+id/action_add_group"
+                  android:icon="@drawable/ic_friend_request"
+                  android:onClick="onAddGroup"
+                  android:title="@string/action_bar_add_group" />
+            <item android:id="@+id/action_refresh"
+                android:icon="@drawable/ic_refresh"
+                android:onClick="onRefresh"
+                android:title="@string/action_refresh"/>
+        </menu>
+    </item>      
+</menu>

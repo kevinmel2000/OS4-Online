@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:paddingLeft="5px"
+    android:paddingRight="5px" android:paddingTop="5dip"
+    android:paddingBottom="5dip" 
+    >
+    
+    <ImageView android:id="@+id/chatavatar"
+	android:layout_width="39dip" android:layout_height="39dip"
+	android:scaleType="fitXY"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentTop="true" 
+	/>
+        
+    <ImageView android:id="@+id/arrow_balloon"
+        android:layout_width="11dip"
+        android:layout_height="15dip"
+        android:layout_toRightOf="@+id/chatavatar"
+        android:layout_alignTop="@+id/chatavatar"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="15dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_arrow_balloon"
+        />
+    
+    <RelativeLayout 
+        android:id="@+id/text_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="2dip"
+    	android:paddingRight="2dip"
+    	android:paddingBottom="2dip"
+    	android:layout_toRightOf="@+id/arrow_balloon"
+    	android:background="#FFFFFF">
+	
+	    <TextView android:id="@+id/chatmessagedate"
+		android:layout_width="wrap_content" android:layout_height="17sp"
+		android:layout_alignParentTop="true"
+		android:paddingLeft="3dip" android:textColor="@color/black"
+		android:textSize="12sp"/>
+
+    	<RelativeLayout 
+        android:id="@+id/location_container"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/chatmessagedate"
+    	android:background="#FFFFFF">
+
+		<ImageView android:id="@+id/location" android:src="@android:drawable/ic_menu_mylocation"
+		android:layout_width="48dip" android:layout_height="48dip"
+		android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+		android:paddingTop="3dip"
+		android:paddingRight="3dip"    	
+		android:paddingBottom="3dip"		 
+		android:scaleType="fitXY"/>
+
+    	<RelativeLayout 
+        android:id="@+id/location_label"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/location" 
+		android:paddingTop="3dip"
+		android:paddingLeft="3dip"    	
+    	android:background="#FFFFFF">
+
+	    <TextView android:id="@+id/latitude_label"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:textColor="@color/black"
+		android:text="Latitude" android:textSize="13sp"/>
+	
+	    <TextView android:id="@+id/longitude_label"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/latitude_label"
+		android:layout_alignParentLeft="true" android:textColor="@color/black"
+		android:text="Longitude" android:textSize="13sp"/>
+		
+		</RelativeLayout>
+
+    	<RelativeLayout 
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/location_label"
+		android:paddingTop="3dip"
+		android:paddingLeft="3dip"    	
+    	android:background="#FFFFFF">
+
+	    <TextView android:id="@+id/latitude_text"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:textColor="@color/black"
+		android:textSize="13sp"/>
+	
+	    <TextView android:id="@+id/longitude_text"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/latitude_text"
+		android:layout_alignParentLeft="true" android:textColor="@color/black"
+		android:textSize="13sp"/>
+		
+		</RelativeLayout>
+
+	</RelativeLayout>
+	
+    </RelativeLayout>
+    
+</RelativeLayout>
+

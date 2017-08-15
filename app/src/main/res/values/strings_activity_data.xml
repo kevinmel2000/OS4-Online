@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="input_label1">Nama</string>
+    <string name="input_label2">Alamat</string>
+    <string name="input_label3">Kota</string>
+    <string name="input_label4">Provinsi</string>
+    <string name="input_label5">Kode Pos</string>
+
+    <string name="input_label6">Umur</string>
+    <string name="input_label7">Jenis Kelamin</string>
+    <string name="input_label8">No tlp</string>
+    
+</resources>
